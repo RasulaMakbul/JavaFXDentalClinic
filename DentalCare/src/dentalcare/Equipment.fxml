@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dentalcare.MedicinesController">
+   <top>
+      <VBox alignment="CENTER" prefHeight="84.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Equipment">
+               <font>
+                  <Font size="41.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView prefHeight="255.0" prefWidth="600.0">
+               <columns>
+                  <TableColumn fx:id="EquipmentNameCol" prefWidth="258.0" text="Name" />
+                  <TableColumn fx:id="EquipmentQuantityCol" prefWidth="117.0" text="Available Quantity" />
+                  <TableColumn fx:id="EquipmentDateCol" prefWidth="98.0" text="Start Date" />
+                  <TableColumn fx:id="EquipmentUseCounterCol" prefWidth="126.0" text="Use Counter" />
+               </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </center>
+   <bottom>
+      <HBox alignment="CENTER_LEFT" prefHeight="68.0" prefWidth="600.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#EquipmentEditBtnAction" prefHeight="49.0" prefWidth="90.0" text="Edit" />
+            <Button mnemonicParsing="false" onAction="#EquipmentDeleteBtnAction" prefHeight="49.0" prefWidth="90.0" text="Delete" />
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </HBox>
+   </bottom>
+</BorderPane>

@@ -34,14 +34,15 @@
                   <Insets left="16.0" />
                </padding>
             </HBox>
-            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="83.0">
+            <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="15.0">
                <children>
                   <Button mnemonicParsing="false" onAction="#AppoinmentBtnAction" prefHeight="62.0" prefWidth="132.0" text="Appoinments" />
                   <Button mnemonicParsing="false" onAction="#PatientsBtnAction" prefHeight="62.0" prefWidth="132.0" text="Patients" />
+                  <Button mnemonicParsing="false" onAction="#EquipmentBtnAction" prefHeight="62.0" prefWidth="132.0" text="Equipment" />
                   <Button mnemonicParsing="false" onAction="#MedicineBtnAction" prefHeight="62.0" prefWidth="132.0" text="Medicines" />
                </children>
                <padding>
-                  <Insets left="19.0" />
+                  <Insets left="14.0" />
                </padding>
             </HBox>
          </children>

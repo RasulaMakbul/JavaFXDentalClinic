@@ -40,5 +40,9 @@ public class DocoreHomePageController implements Initializable {
     @FXML
     private void MedicineBtnAction(ActionEvent event) {
     }
+
+    @FXML
+    private void EquipmentBtnAction(ActionEvent event) {
+    }
     
 }
