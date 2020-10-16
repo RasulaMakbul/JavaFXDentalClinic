@@ -42,9 +42,10 @@
       </VBox>
    </center>
    <bottom>
-      <HBox alignment="CENTER_LEFT" prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+      <HBox alignment="CENTER_LEFT" prefHeight="67.0" prefWidth="600.0" spacing="350.0" BorderPane.alignment="CENTER">
          <children>
             <Button mnemonicParsing="false" prefHeight="45.0" prefWidth="164.0" text="Delete Appoinment" />
+            <Button mnemonicParsing="false" onAction="#ReturnBtnAction" text="Back" />
          </children>
          <opaqueInsets>
             <Insets />

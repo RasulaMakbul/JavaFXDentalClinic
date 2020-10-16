@@ -28,5 +28,9 @@ public class StaffEntryLogController implements Initializable {
     @FXML
     private void AssistantEntryLogBtnAction(ActionEvent event) {
     }
+
+    @FXML
+    private void EntryLogBackBtnAction(ActionEvent event) {
+    }
     
 }

@@ -48,4 +48,14 @@
          </children>
       </VBox>
    </center>
+   <bottom>
+      <HBox alignment="CENTER_RIGHT" prefHeight="72.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#DoctorLogOutBtnAction" prefHeight="42.0" prefWidth="120.0" text="Log Out" />
+         </children>
+         <padding>
+            <Insets right="16.0" />
+         </padding>
+      </HBox>
+   </bottom>
 </BorderPane>

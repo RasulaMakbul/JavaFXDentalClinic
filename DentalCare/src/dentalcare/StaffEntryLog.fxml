@@ -39,6 +39,7 @@
          <children>
             <Button mnemonicParsing="false" onAction="#DoctorEntryLogBtnAction" prefHeight="45.0" prefWidth="106.0" text="Doctor" />
             <Button mnemonicParsing="false" onAction="#AssistantEntryLogBtnAction" prefHeight="45.0" prefWidth="106.0" text="Assistant" />
+            <Button mnemonicParsing="false" onAction="#EntryLogBackBtnAction" prefHeight="45.0" prefWidth="106.0" text="Back" />
          </children>
          <padding>
             <Insets left="37.0" />

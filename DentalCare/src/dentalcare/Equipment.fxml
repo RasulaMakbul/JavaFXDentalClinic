@@ -41,6 +41,7 @@
          <children>
             <Button mnemonicParsing="false" onAction="#EquipmentEditBtnAction" prefHeight="49.0" prefWidth="90.0" text="Edit" />
             <Button mnemonicParsing="false" onAction="#EquipmentDeleteBtnAction" prefHeight="49.0" prefWidth="90.0" text="Delete" />
+            <Button mnemonicParsing="false" onAction="#EquipmentBackBtnAction" prefHeight="51.0" prefWidth="86.0" text="Back" />
          </children>
          <BorderPane.margin>
             <Insets />

@@ -30,5 +30,9 @@ public class MedicinesController implements Initializable {
     @FXML
     private void EquipmentDeleteBtnAction(ActionEvent event) {
     }
+
+    @FXML
+    private void EquipmentBackBtnAction(ActionEvent event) {
+    }
     
 }

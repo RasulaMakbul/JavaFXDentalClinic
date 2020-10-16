@@ -41,6 +41,7 @@
          <children>
             <Button mnemonicParsing="false" onAction="#PatientListUpdateBtnAction" prefHeight="39.0" prefWidth="153.0" text="Update Information" />
             <Button mnemonicParsing="false" onAction="#PatientListPrescriptionBtnAction" prefHeight="39.0" prefWidth="153.0" text="Prescription" />
+            <Button mnemonicParsing="false" onAction="#PatientBackBtnAction" prefHeight="38.0" prefWidth="152.0" text="Back" />
          </children>
          <padding>
             <Insets left="33.0" top="4.0" />

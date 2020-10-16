@@ -30,5 +30,9 @@ public class PatientListController implements Initializable {
     @FXML
     private void PatientListPrescriptionBtnAction(ActionEvent event) {
     }
+
+    @FXML
+    private void PatientBackBtnAction(ActionEvent event) {
+    }
     
 }
